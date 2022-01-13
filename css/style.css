@@ -45,7 +45,6 @@ ul {
    width: 1200px;
    padding: 0 15px;
    margin: 0 auto;
-   outline: 5px solid red;
 }
 
 /* Header  */
@@ -239,6 +238,7 @@ ul {
    text-align: center;
    letter-spacing: 0.03em;
    color: var(--secondary-text-color);
+   margin-bottom: 10px;
 }
 
 .team-card {
@@ -248,6 +248,9 @@ ul {
    border-radius: 0px 0px 4px 4px;
 }
 
+.team-card-wrapper {
+   margin: 30px auto;
+}
 .team-card:last-child {
    margin-right: 0;
 }
