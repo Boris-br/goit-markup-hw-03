@@ -52,7 +52,6 @@ ul {
 .header-container {
    display: flex;
    align-items: center;
-   margin-bottom: 94px;
    border-bottom: 1px solid #ececec;
 }
 
@@ -271,7 +270,9 @@ ul {
    color: var(--secondary-text-color);
    cursor: pointer;
 }
-
+.content-portfolio {
+   padding-top: 94px;
+}
 .filter-wrapper {
    display: flex;
    flex-direction: row;
