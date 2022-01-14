@@ -340,12 +340,15 @@ ul {
    background-color: #2f303a;
 }
 .footer-content {
+   display: flex;
+   flex-direction: column;
    padding-top: 60px;
    padding-bottom: 60px;
 }
 
 .footer .logo {
    color: var(--primary-white-color);
+   margin-bottom: 20px;
 }
 
 .footer .address {
