@@ -29,8 +29,9 @@ ul {
    margin: 0;
 }
 
-.no-visible {
-   display: none;
+.visually-hidden {
+   position: fixed;
+   transform: scale(0);
 }
 
 .section {
@@ -77,9 +78,12 @@ img {
    color: var(--accent-color);
 }
 
+.nav {
+   margin-left: 93px;
+}
+
 .nav-list {
    display: flex;
-   margin-left: 93px;
 }
 
 .nav-list .link {
@@ -146,12 +150,6 @@ img {
 
 /* Hero  */
 
-.hero {
-   background: #2f303a;
-}
-
-.banner-box {
-}
 .banner-title {
    margin-bottom: 40px;
 }
@@ -164,6 +162,7 @@ img {
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
+   background: #2f303a;
    color: var(--primary-white-color);
 }
 
@@ -245,7 +244,11 @@ img {
 }
 
 /* Наша команда */
+
 .team {
+   background-color: #f5f4fa;
+}
+.team-wrapper {
    display: flex;
    font-size: 16px;
    line-height: 1.19;
@@ -268,10 +271,11 @@ img {
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
+   background-color: var(--primary-white-color);
 }
 
 .team-card-wrapper {
-   margin: 30px auto;
+   padding: 30px 0;
 }
 .team-card:last-child {
    margin-right: 0;
@@ -359,16 +363,12 @@ img {
 
 /* Footer  */
 .footer {
+   padding: 60px 0;
    background-color: #2f303a;
-}
-.footer-content {
-   display: flex;
-   flex-direction: column;
-   padding-top: 60px;
-   padding-bottom: 60px;
 }
 
 .footer .logo {
+   display: block;
    color: var(--primary-white-color);
    margin-bottom: 20px;
 }
