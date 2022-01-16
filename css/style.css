@@ -150,10 +150,6 @@ img {
 
 /* Hero  */
 
-.banner-title {
-   margin-bottom: 40px;
-}
-
 .banner {
    padding-top: 200px;
    padding-bottom: 200px;
@@ -164,6 +160,10 @@ img {
    text-transform: uppercase;
    background: #2f303a;
    color: var(--primary-white-color);
+}
+
+.banner-title {
+   padding: 30px;
 }
 
 .button {
